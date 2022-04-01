@@ -1,12 +1,31 @@
+import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <div className="h-20  flex justify-between bg-[#101010] px-5 items-center">
-        <div className="text-[#5EC074] text-2xl ">Dhruv</div>
-        <div className="flex justify-evenly flex-col ">
-          <div className="w-10 rounded-md h-1 bg-[#5EC074]"></div>
-          <div className="w-10 rounded-md h-1 my-2 bg-[#5EC074] "></div>
-          <div className="w-10 rounded-md h-1 bg-[#5EC074]"></div>
+      <div className="h-24  flex justify-between bg-black  items-center md:px-36">
+        <div className="text-white text-xl hover:text-green hover:scale-125 font-bold">
+          Dhruvraj Solanki
+        </div>
+        <div className="flex justify-evenly flex-col md:hidden">
+          <div className="w-10 rounded-md h-1 bg-white "></div>
+          <div className="w-10 rounded-md h-1 my-2 bg-white "></div>
+          <div className="w-10 rounded-md h-1 bg-white "></div>
+        </div>
+        <div className="hidden md:flex ">
+          <ul className="flex justify-around gap-5 items-center">
+            <li className="text-white hover:text-green text-md font-bold">
+              <Link href="/">About me</Link>
+            </li>
+            <li className="text-white hover:text-green text-md font-bold">
+              <Link href="/">Projects</Link>
+            </li>
+            <li className="text-white hover:text-green text-md font-bold">
+              <Link href="/">Work</Link>
+            </li>
+            <li className="text-white border-2 hover:border-green p-1 rounded-md hover:text-green text-md  font-bold">
+              <Link href="/">Contact me</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </>
