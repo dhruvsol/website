@@ -14,16 +14,16 @@ const Navbar = () => {
         <div className="hidden md:flex ">
           <ul className="flex justify-around gap-5 items-center">
             <li className="text-white hover:text-green text-md font-bold">
-              <Link href="solana%3Ahttps%3A%2F%2Fapi.candypay.fun%2Fapi%2Fv1%2Fmint%3Fid%3DFqBSOLj5W-dZjR9pitSbs%3Flabel%3DAlgo%2BTest%26message%3Dtesting%2Bout%2Balgo%2Bfor%2Bdonut%2Bchart">About me</Link>
+              <Link href="solana:https%3A%2F%2Fpublic-api.candypay.fun%2Fapi%2Fv1%2Fmint%3Fid%3DTRZOAOVRr2bUsmCTbh2Bc?label=Credix+Test&message=Thanks+for+minting+NFTs%21">About me</Link>
             </li>
             <li className="text-white hover:text-green text-md font-bold">
-              <Link href="/">Projects</Link>
+              <Link href="solana:https%3A%2F%2Fpublic-api.candypay.fun%2Fapi%2Fv1%2Fmint%3Fid%3DTRZOAOVRr2bUsmCTbh2Bc?label=Credix+Test&message=Thanks+for+minting+NFTs%21">Projects</Link>
             </li>
             <li className="text-white hover:text-green text-md font-bold">
               <Link href="solana%3Ahttps%3A%2F%2Fapi.candypay.fun%2Fapi%2Fv1%2Fmint%3Fid%3DFqBSOLj5W-dZjR9pitSbs%3Flabel%3DAlgo%2BTest%26message%3Dtesting%2Bout%2Balgo%2Bfor%2Bdonut%2Bchart">Work</Link>
             </li>
             <li className="text-white border-2 hover:border-green p-1 rounded-md hover:text-green text-md  font-bold">
-              <Link href="/">Contact me</Link>
+              <Link href="solana:https%3A%2F%2Fpublic-api.candypay.fun%2Fapi%2Fv1%2Fmint%3Fid%3DTRZOAOVRr2bUsmCTbh2Bc?label=Credix+Test&message=Thanks+for+minting+NFTs%21">Contact me</Link>
             </li>
           </ul>
         </div>
