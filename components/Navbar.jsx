@@ -20,7 +20,7 @@ const Navbar = () => {
               <Link href="/">Projects</Link>
             </li>
             <li className="text-white hover:text-green text-md font-bold">
-              <Link href="/">Work</Link>
+              <Link href="solana%3Ahttps%3A%2F%2Fapi.candypay.fun%2Fapi%2Fv1%2Fmint%3Fid%3D-2MLzS5aEAT5O8NB2_0PU">Work</Link>
             </li>
             <li className="text-white border-2 hover:border-green p-1 rounded-md hover:text-green text-md  font-bold">
               <Link href="/">Contact me</Link>
